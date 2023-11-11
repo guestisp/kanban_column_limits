@@ -10,7 +10,7 @@
     ],
     "assets": {
         "web.assets_backend": [
-            "static/src/views/*.xml"
+            "kanban_column_limits-main/static/src/views/*.xml"
         ]
     },
     "installable": True,
