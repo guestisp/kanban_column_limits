@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
-    <t t-name="kanban_column_limits-main.KanbanHeader" t-inherit="web.KanbanHeader">
-        <xpath expr="//div" position="after">
-            <div>MAX:4</div>
+    <t t-name="kanban_column_limits-main.KanbanRenderer" t-inherit="web.KanbanRenderer">
+        <xpath expr="//div[hasclass('o_kanban_renderer')]" position="attributes">
+            <attribute name="CULO" add="MERDA" separator=" "/>
         </xpath>
     </t>
 </templates>
