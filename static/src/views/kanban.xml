@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
     <t t-name="kanban_column_limits-main.KanbanHeader" t-inherit="web.KanbanHeader" t-inherit-mode="primary">
-        <xpath expr="//div[hasclass('o_action_manager')]" position="before">
+        <xpath expr="//div[hasclass('o_action_manager')]" position="after">
             <div>MAX:4</div>
         </xpath>
     </t>
