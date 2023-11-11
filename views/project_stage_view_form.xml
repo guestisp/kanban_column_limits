@@ -6,8 +6,8 @@
         <field name="inherit_id" ref="project.project_project_stage_view_form" />
         <field name="arch" type="xml">
             <field name='fold' position="after">
-                <field name="column_limit" />
-                <field name="strict_column_limit" />
+                <field name="column_limits" widget="integer" />
+                <field name="strict_column_limits" widget="toggle" />
             </field>
         </field>
     </record>
