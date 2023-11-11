@@ -1,25 +1,22 @@
 /** @odoo-module **/
 import { registry } from "@web/core/registry";
-import { kanbanView } from "@web/views/kanban/kanban_view";
+import { KanbanView } from "@web/views/kanban/kanban_view";
 import { KanbanRenderer } from "@web/views/kanban/kanban_renderer";
 import { KanbanHeader } from "@web/views/kanban/kanban_header";
 
 class kanban_colum_limits_KanbanHeader extends KanbanHeader {
     static template = "kanban_column_limits-main.KanbanHeader";
+}
+
+export class kanban_colum_limits_KanbanRenderer extends KanbanRenderer {
     static components = {
-        ...KanbanHeader.components,
-        //....
+        ...KanbanRenderer.components,
+        KanbanHeader: kanban_colum_limits_KanbanHeader,
     };
 }
 
-export class kanban_colum_limits_KanbanRenderer extends KanbanRenderer {}
-kanban_colum_limits_KanbanRenderer.components = {
-    ...KanbanRenderer.components,
-    KanbanHeader: kanban_colum_limits_KanbanHeader,
-};
-
 export const kanban_colum_limits_KanbanView = {
-    ...kanbanView,
+    ...KanbanView,
     Renderer: kanban_colum_limits_KanbanRenderer,
 };
 
