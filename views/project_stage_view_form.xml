@@ -2,7 +2,7 @@
 <odoo>
     <record id="project_stage_view_form_column_limit" model="ir.ui.view">
         <field name="name">project.project_project_stage_view_form.column_limit</field>
-        <field name="model">project.stage</field>
+        <field name="model">project.project.stage</field>
         <field name="inherit_id" ref="project.project_project_stage_view_form" />
         <field name="arch" type="xml">
             <field name='fold' position="after">
