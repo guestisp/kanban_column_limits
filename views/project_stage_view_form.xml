@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_partner_pec_form" model="ir.ui.view">
+        <field name="name">project.project_project_stage_view_form.column_limit</field>
+        <field name="model">project.project.stage</field>
+        <field name="inherit_id" ref="project.project_project_stage_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='fold']/ancestor::div" position="after">
+                <field name="column_limit" widget="integer" />
+                <field name="strict_column_limit" widget="toggle" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
