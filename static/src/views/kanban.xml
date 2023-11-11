@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dasdadasdtemplates xml:space="preserve">
+<templates xml:space="preserve">
     <t t-name="kanban_column_limits.KanbanHeader" t-inherit="web.KanbanHeader" t-inherit-mode="primary">
         <xpath expr="//div[hasclass('o_kanban_header_title')]" position="after">
             <span>MAX:4</span>
