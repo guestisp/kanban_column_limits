@@ -3,7 +3,7 @@
 from odoo import fields, models
 
 
-class ProjectProjectStage(models.Model):
+class ProjectStage(models.Model):
     _inherit = "project.project.stage"
 
     column_limit = fields.Integer(string="Column limits")
