@@ -23,4 +23,4 @@ export const kanban_colum_limits_KanbanView = {
     Renderer: kanban_colum_limits_KanbanRenderer,
 };
 
-registry.category("views").add("anban_column_limits", kanban_colum_limits_KanbanView);
+registry.category("views").add("kanban_column_limits", kanban_colum_limits_KanbanView);
