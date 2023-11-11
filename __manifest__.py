@@ -4,6 +4,7 @@
     "summary": "Add column limits for kanban colums",
     "license": "AGPL-3",
     "depends": ["project"],
+    "sequence": 70,
     "data": [
         "views/project_stage_view_form.xml"
     ],
