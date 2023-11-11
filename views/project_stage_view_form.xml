@@ -11,4 +11,17 @@
             </field>
         </field>
     </record>
+
+    <record id="project_project_project_stage_view_kanban_column_limit" model="ir.ui.view">
+        <field name="name">project_project_project_stage_view_kanban.column_limit</field>
+        <field name="model">project.project.stage</field>
+        <field name="inherit_id" ref="project.project_project_stage_view_kanban" />
+        <field name="arch" type="xml">
+            <field name='name' position="after">
+                <span> CIAO </span>
+            </field>
+        </field>
+    </record>
 </odoo>
+
+
