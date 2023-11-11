@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
     <t t-name="kanban_column_limits-main.KanbanHeader" t-inherit="web.KanbanHeader">
-        <xpath expr="//div[hasclass('o_kanban_header_title')]">
+        <xpath expr="//div[hasclass('o_kanban_header_title')]" position="inside">
             <span>MAX:4</span>
         </xpath>
     </t>
