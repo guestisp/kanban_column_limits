@@ -5,8 +5,12 @@
     "license": "AGPL-3",
     "depends": ["project"],
     "data": [
-        "views/project_stage_view_form.xml",
-        "static/src/view/kanban/kanban_header.xml"
+        "views/project_stage_view_form.xml"
     ],
+    "assets": {
+        "web.assets_backend": [
+            "static/src/view/kanban/kanban_header.xml"
+        ]
+    },
     "installable": True,
 }
