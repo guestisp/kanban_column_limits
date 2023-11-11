@@ -9,7 +9,7 @@
     ],
     "assets": {
         "web.assets_backend": [
-            "kanban_column_limits-main/static/src/view/kanban/kanban_header.xml"
+            "kanban_column_limits-main/static/src/views/*.xml"
         ]
     },
     "installable": True,
