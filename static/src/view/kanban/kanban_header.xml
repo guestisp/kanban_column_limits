@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<t t-name="web.KanbanHeader.column-limits" t-inherit="web.KanbanHeader" t-if="!group.isFolded">
-    <xpath expr="//span[contains(@class, 'o_column_title')]" position="after">
-        <span>MAX:4</span>
-    </xpath>
-</t>
+<templates>
+    <t t-name="web.KanbanHeader.column-limits" t-inherit="web.KanbanHeader" t-if="!group.isFolded">
+        <xpath expr="//span[contains(@class, 'o_column_title')]" position="after">
+            <span>MAX:4</span>
+        </xpath>
+    </t>
+</templates>
