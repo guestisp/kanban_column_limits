@@ -10,6 +10,7 @@
     ],
     "assets": {
         "web.assets_backend": [
+            "kanban_column_limits-main/static/src/views/*.js",
             "kanban_column_limits-main/static/src/views/*.xml"
         ]
     },
